@@ -343,7 +343,7 @@ footer {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     nav {
         gap: 30px;
         padding-left: 5%;
@@ -463,10 +463,3 @@ footer {
         font-size: 13px;
     }
 }
-
-
-
-
-
-
-
