@@ -343,7 +343,7 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
     nav {
         gap: 30px;
         padding-left: 5%;
@@ -359,6 +359,17 @@ footer {
 
     .text-perfil p {
         font-size: 13px;
+    }
+
+    .text-perfil {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .img-perfil {
+        margin-left: 0px;
+        width: 90%;
+        height: 50vh;
     }
 
     .contatos {
@@ -395,6 +406,17 @@ footer {
     .card:hover img {
         transform: scale(1.1);
         transition: 1s;
+    }
+
+    #contact {
+        font-size: 15px;
+    }
+
+    .contatos img {
+        width: 22px;
+        padding: 8px;
+        border: solid 1px white;
+        border-radius: 50%;
     }
 }
 
