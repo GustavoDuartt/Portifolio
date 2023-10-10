@@ -20,6 +20,9 @@ header {
     align-items: center;
     background: transparent;
     font-family: 'Bebas Neue', sans-serif;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    z-index: 1000;
 }
 
 .logo {
