@@ -456,6 +456,11 @@ footer {
     .card-lin p {
         font-size: 15px;
     }
+
+    nav {
+        gap: 10px;
+        padding-left: 2%;
+    }
 }
 
 @media (max-width: 328px) {
